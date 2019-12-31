@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "235973688423",
+    "firebase_url": "https://vitour-22fed.firebaseio.com",
+    "project_id": "vitour-22fed",
+    "storage_bucket": "vitour-22fed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235973688423:android:3b34d7dad4bb819c0268c2",
+        "android_client_info": {
+          "package_name": "com.nmpm.vitour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235973688423-l482kj3nstvgru891vg36hoh0njieg6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nmpm.vitour",
+            "certificate_hash": "6cfa820b4d563f686672b627438d7dc414243698"
+          }
+        },
+        {
+          "client_id": "235973688423-73u6iretqkbpdct4tkan3nfghf8v1m8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNk9VTZN7szLzINWrXIPgKdjjQ8AR40t0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235973688423-73u6iretqkbpdct4tkan3nfghf8v1m8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

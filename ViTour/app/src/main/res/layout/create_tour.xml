@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtNameTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Tên chuyến đi" />
+
+    <EditText
+        android:id="@+id/etNameTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:padding="7dp"/>
+    <TextView
+        android:id="@+id/txtTimeTrip"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Thời gian" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/txtFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="18dp"
+        android:text="Từ" />
+    <EditText
+        android:id="@+id/etDateFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginRight="10dp"
+        android:ems="7"
+        android:hint="dd/mm/yyyy"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:padding="7dp"/>
+    <EditText
+        android:id="@+id/etTimeFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:ems="6"
+        android:hint="00:00"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:padding="7dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/txtTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Đến" />
+        <EditText
+            android:id="@+id/etDateTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginRight="10dp"
+            android:ems="7"
+            android:hint="dd/mm/yyyy"
+            android:textStyle="italic"
+            android:inputType="textPersonName"
+            android:padding="7dp"/>
+        <EditText
+            android:id="@+id/etTimeTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:ems="6"
+            android:hint="00:00"
+            android:textStyle="italic"
+            android:inputType="textPersonName"
+            android:padding="7dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Địa điểm" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etLocaFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/rounded_corner"
+            android:ems="7"
+            android:inputType="textPersonName"
+            android:textStyle="italic"
+            android:padding="7dp"/>
+
+        <EditText
+            android:id="@+id/etLocaTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:ems="7"
+            android:inputType="textPersonName"
+            android:textStyle="italic"
+            android:padding="7dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddImg"
+        android:paddingRight="110dp"
+        android:paddingLeft="110dp"
+        android:paddingTop="80dp"
+        android:paddingBottom="80dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffff"
+        android:text="+ Thêm ảnh"
+        android:textAlignment="center">
+
+    </Button>
+    <Button
+        android:id="@+id/btnCreateTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner"
+        android:textColor="#ffff"
+        android:backgroundTint="#213300"
+        android:text="Tạo chuyến đi" />
+</LinearLayout>
