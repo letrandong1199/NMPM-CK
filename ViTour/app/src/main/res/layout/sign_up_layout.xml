@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".SignUpActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -132,7 +132,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/my_custom_background"
-                android:hint="Nhập tên đăng nhập"
+                android:hint="Nhập tài khoản Google/ Facebook"
                 android:paddingTop="5sp"
                 android:paddingBottom="5sp"/>
 
