@@ -14,7 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.nmpm.vitour.Object.Tour;
-import com.nmpm.vitour.R;
+import com.nmpm.vitour.Activity.R;
 
 import java.util.ArrayList;
 

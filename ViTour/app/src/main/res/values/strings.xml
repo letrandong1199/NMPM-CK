@@ -1,5 +1,127 @@
 <resources>
     <string name="app_name">ViTour</string>
-    <string name="search_tour">Search</string>
+    <string name="search_tour">Tìm kiếm</string>
     <string name="add">+</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="sign_up">Đăng kí</string>
+    <string name="sign_in">Đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="phone">Điện thoại</string>
+    <string name="email">Email</string>
+    <string name="full_name">Họ tên</string>
+    <string name="gender">Giới tính</string>
+    <string name="birthday">Sinh nhật</string>
+    <string name="address">Địa chỉ</string>
+    <string name="email_phone">Email/Số điện thoại</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="title_activity_maps">Bản đồ</string>
+    <string name="create_tour_name">Tên chuyến đi</string>
+    <string name="create_tour_startDate">Ngày bắt đầu</string>
+    <string name="create_tour_endDate">Ngày kết thúc</string>
+    <string name="create_tour_Date_hint">Chọn ngày</string>
+    <string name="create_tour_minCost">Giá thấp nhất</string>
+    <string name="create_tour_maxCost">Giá cao nhất</string>
+    <string name="create_tour_Adults">Người lớn</string>
+    <string name="create_tour_Childrens">Trẻ em</string>
+    <string name="create_tour_image">Chọn ảnh chuyến đi</string>
+    <string name="create_tour_private">Đây là chuyến đi riêng tư ?</string>
+    <string name="create_tour_Create">Tạo</string>
+    <string name="facebook_app_id">502760397115169</string>
+    <string name="fb_login_protocol_scheme">fb502760397115169</string>
+    <string name="title_activity_location_maps">Bản đồ</string>
+    <string name="name_tour_hints">Tên chuyến đi</string>
+    <string name="date_tour_hints">Ngày bắt đầu - Ngày kết thúc</string>
+    <string name="number_people_tour_hints">Số người lớn - Số trẻ em</string>
+    <string name="price_tour_hints">Giá thấp nhất - Giá cao nhất</string>
+    <string name="name_user_hints">Tên người dùng</string>
+    <string name="edit_profile_user">Chỉnh sửa thông tin ></string>
+    <string name="user_sign_out">Dăng xuất</string>
+    <string name="user_save_profile">Lưu</string>
+    <string name="user_change_password">Đổi mật khẩu</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="send_an_otp">Gửi OTP</string>
+    <string-array name="services">
+        <item>Nhà hàng</item>
+        <item>Khách sạn</item>
+        <item>Trạ dừng chân</item>
+        <item>Khác</item>
+    </string-array>
+    <string-array name="provinces">
+        <item>Hồ Chí Minh</item>
+        <item>Hà Nội</item>
+        <item>Đà Nẵng</item>
+        <item>Bình Dương</item>
+        <item>Đồng Nai</item>
+        <item>Khánh Hòa</item>
+        <item>Hải Phòng</item>
+        <item>Long An</item>
+        <item>Quảng Nam</item>
+        <item>Bà Rịa Vũng Tàu</item>
+        <item>Đắk Lắk</item>
+        <item>Cần Thơ</item>
+        <item>Bình Thuận</item>
+        <item>Lâm Đồng</item>
+        <item>Thừa Thiên Huế</item>
+        <item>Kiên Giang</item>
+        <item>Bắc Ninh</item>
+        <item>Quảng Ninh</item>
+        <item>Thanh Hóa</item>
+        <item>Nghệ An</item>
+        <item>Hải Dương</item>
+        <item>Gia Lai</item>
+        <item>Bình Phước</item>
+        <item>Hưng Yên</item>
+        <item>Bình Định</item>
+        <item>Tiền Giang</item>
+        <item>Thái Bình</item>
+        <item>Bắc Giang</item>
+        <item>Hòa Bình</item>
+        <item>An Giang</item>
+        <item>Vĩnh Phúc</item>
+        <item>Tây Ninh</item>
+        <item>Thái Nguyên</item>
+        <item>Lào Cai</item>
+        <item>Nam Định</item>
+        <item>Quảng Ngãi</item>
+        <item>Bến Tre</item>
+        <item>Đắk Nông</item>
+        <item>Cà Mau</item>
+        <item>Vĩnh Long</item>
+        <item>Ninh Bình</item>
+        <item>Phú Thọ</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Yên</item>
+        <item>Hà Nam</item>
+        <item>Hà Tĩnh</item>
+        <item>Đồng Tháp</item>
+        <item>Sóc Trăng</item>
+        <item>Kon Tum</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Trị</item>
+        <item>Trà Vinh</item>
+        <item>Hậu Giang</item>
+        <item>Sơn La</item>
+        <item>Bạc Liêu</item>
+        <item>Yên Bái</item>
+        <item>Tuyên Quang</item>
+        <item>Điện Biên</item>
+        <item>Lai Châu</item>
+        <item>Lạng Sơn</item>
+        <item>Hà Giang</item>
+        <item>Bắc Kạn</item>
+        <item>Cao Bằng</item>
+    </string-array>
+    <string name="name_of_stop_point_hint">Tên\'s điểm dừng</string>
+    <string name="coordinate_of_stop_point_hint">Coordinate\'s điểm dừng</string>
+    <string name="time_of_stop_point_hint">Thời gian\'s điểm dừng</string>
+    <string name="price_of_stop_point_hints">Giá thấp nhất - Giá cao nhất</string>
+    <string name="serviceType_stop_point_hints">Loại dịch vụ</string>
+    <string name="title_activity_place_picker">Bản đồ</string>
+    <string name="invite">Mời</string>
+    <string name="join">Tham gia</string>
+    <string name="start_tour">Bắt đầu</string>
+    <string name="update">Cập nhật</string>
+    <string name="send_notification">Gửi thông báo</string>
+
 </resources>
+

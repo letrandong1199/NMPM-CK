@@ -1,23 +1,16 @@
-package com.nmpm.vitour;
+package com.nmpm.vitour.Activity;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.widget.Toolbar;
-import android.view.Gravity;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.SearchView;
 
 import com.nmpm.vitour.Object.Tour;
 import com.nmpm.vitour.adapter.TourAdapters;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class ListTourActivity extends AppCompatActivity {
 
     Tour tour;
     ArrayList<Tour> toursList = new ArrayList<Tour>();
@@ -26,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_list_tour);
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.abs_layout);
 
@@ -37,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private void Show() {
         tour = new Tour("HCM - Nha Trang",  10, 15, 0, 1, 2, 3, false, 10, 5,10000, 50000, "https://cdnimg.vietnamplus.vn/uploaded/fsmsr/2018_12_03/31.jpg");
         toursList.add(tour);
-        tourAdapters = new TourAdapters(MainActivity.this, R.layout.listview_tour_layout, toursList);
+        tourAdapters = new TourAdapters(ListTourActivity.this, R.layout.items_list_tour_layout, toursList);
         lvTours.setAdapter(tourAdapters);
     }
 
